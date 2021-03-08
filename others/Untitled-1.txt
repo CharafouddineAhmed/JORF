@@ -1,0 +1,15 @@
+# modele = {
+    ID,
+    ID_ELI,
+    ID_ELI_ALIAS,
+    ANCIEN_ID, # pas important 
+    ORIGINE,
+    URL,
+    NATURE,
+    NUM,
+    TYPE,
+    contexte
+    versions,
+    contenu
+
+}

@@ -1,0 +1,23 @@
+{
+    "SECTION_TA.ID": "JORFSCTA000038793153",
+    "SECTION_TA.TITRE_TA": "Titre Ier : CONDITIONS D'ACCÈS À LA FORMATION",
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.0.nom": "CHARAFOUDDINE",
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.0.prenom": "ahmed",
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.0.age": 24,
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.1.nom": "ZOUBERT",
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.1.prenom": "Ichma",
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.1.age": 24,
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.2.nom": "ZOUBERT",
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.2.prenom": "Ichma",
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.2.age": 24,
+    "SECTION_TA.STRUCTURE_TA.LIEN_ART.2.sdf.0.sdf": "sdfq",
+    "SECTION_TA.CONTEXTE.TEXTE.@cid": "JORFTEXT000038793144",
+    "SECTION_TA.CONTEXTE.TEXTE.@date_publi": "2019-07-21",
+    "SECTION_TA.CONTEXTE.TEXTE.@num_parution_jo": "0168",
+    "SECTION_TA.CONTEXTE.TEXTE.TITRE_TXT.@c_titre_court": "Arrêté du 19 juillet 2019",
+    "SECTION_TA.CONTEXTE.TEXTE.TITRE_TXT.@debut": "2999-01-01",
+    "SECTION_TA.CONTEXTE.TEXTE.TITRE_TXT.@fin": "2999-01-01",
+    "SECTION_TA.CONTEXTE.TEXTE.TITRE_TXT.@id_txt": "JORFTEXT000038793144",
+    "SECTION_TA.CONTEXTE.TEXTE.TITRE_TXT.#text": "Arrêté du 19 juillet 2019 relatif à la formation conduisant au diplôme d'assistant de régulation médicale et à l'agrément des centres de formation d'assistant de régulation médicale",
+    "SECTION_TA.CONTEXTE.TEXTE.TITRE_TXT.v": 3
+}
