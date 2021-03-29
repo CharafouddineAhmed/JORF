@@ -7,7 +7,6 @@
 #!/usr/bin/python
 # coding: utf-8
 import os, logging
-from func.article.convertArticle import task_article
 from func.text.convertText import task_texte_version
 from func.textStructure.convertTextStruct import task_texte_struct
 from func.conteneur.convertConteneur import task_conteneur
@@ -29,25 +28,25 @@ if __name__ == "__main__":
 
     # Entrée. 
     # DIR_PATH ='C:\\Users\\CS5764\\Desktop\\codeNapoleon\\assets\\jorf'
-    DIR_PATH ='C:\\Users\\CS5764\\Desktop\\codeNapoleon\\assets\\jorf'
+    DIR_PATH ='/Users/ahmedcharafouddine/Documents/projets/PROJET_JORF/assets'
 
 
-    ARTICLE_LISTE,CONTENEUR_LISTE, TEXTE_VERSION_LISTE, TEXTE_STRUCTURE_LISTE, SECTION = classification_file(DIR_PATH)
+    ARTICLE_LISTE, CONTENEUR_LISTE, TEXTE_VERSION_LISTE, TEXTE_STRUCTURE_LISTE, SECTION = classification_file(DIR_PATH)
 
-    print("Hello. ! ")
-    print("indexing on ES article document....")
     for xml_file_name in ARTICLE_LISTE:
-       file = task_article(xml_file_name)
-       # os.system(f"sed -i -e 's/null/0/g' {file}")
-        task_indexation(file)
+
+        print(xml_file_name)
+        # file = task_article(xml_file_name)
+        # os.system(f"sed -i -e 's/null/0/g' {file}")
+        #task_indexation(file)
         # if os.path.exists(f'{file}'):
         #     os.remove(f'{file}')
-    output =[]
-    for xml_file_name in CONTENEUR_LISTE:
-        output = task_conteneur(xml_file_name)
+    #output =[]
+    #for xml_file_name in CONTENEUR_LISTE:
+    #    output = task_conteneur(xml_file_name)
 
-    for valeur in output:
-        task_indexation(valeur)
+    #for valeur in output:
+    #    task_indexation(valeur)
 
 
 # logging.basicConfig(filename='./logs/activity_global.log', level=logging.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
