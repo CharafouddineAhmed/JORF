@@ -1,0 +1,8 @@
+[2021-03-29 17:28:05,873][INFO][root][appel de la fonction classification ]
+[2021-03-29 17:28:05,877][INFO][root][function classification was started .. ]
+[2021-03-29 17:28:06,921][INFO][root][4026 xml files type article was found]
+[2021-03-29 17:28:06,921][INFO][root][1 xml files type conteneur was found]
+[2021-03-29 17:28:06,921][INFO][root][2340 xml files type section was found]
+[2021-03-29 17:28:06,921][INFO][root][519 xml files type struct was found]
+[2021-03-29 17:28:06,921][INFO][root][519 xml files type version was found]
+[2021-03-29 17:28:06,921][INFO][root][function has been terminated]
